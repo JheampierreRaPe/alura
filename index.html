@@ -1,0 +1,71 @@
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Alura, encriptador, proyecto, desencriptador">
+    <meta name="description" content="El encripatador de texto esta basado en el proyecto de aprendizaje de Alura Latam y Oracle">
+    <meta name="author" content="Jheampierre Ra.Pe">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/favicons/alura/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/favicons/alura/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/favicons/alura/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/favicons/alura/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/favicons/alura/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/favicons/alura/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/favicons/alura/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/favicons/alura/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicons/alura/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/favicons/alura/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicons/alura/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicons/alura/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicons/alura/favicon-16x16.png">
+    <link rel="manifest" href="/favicons/alura/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/favicons/alura/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- CSS -->
+    <link rel="stylesheet" href="index.css">
+    <!-- Titulo -->
+    <title>Encriptador de texto</title>
+</head>
+<body>
+    <header>
+        <img src="/imagenes/Vector.png" alt="Logo de Alura">
+    </header>
+    <main>
+        <section class="left">
+            <textarea name="texto" class="texto" id="texto" placeholder="Ingrese un mensaje..."></textarea>
+            <div class="leyenda">
+                <img src="/imagenes/icono_importante.png" class="img_advertencia" alt="Ingrese solo letras minusculas y sin acentos">
+                <p class="advertencia">Ingrese solo letras minusculas y sin acentos</p>
+            </div>
+            <input type="button" class="btn-left" value="Encriptar">
+            <input type="button" class="btn-right" value="Desencriptar">
+     
+        </section>
+    
+        <section class="right">
+            <div class="munieco">
+                <img src="/imagenes/Muñeco.png" alt="Caricatura Alura">
+            </div>
+            <div class="h3_munieco">
+                <h3>No se encontró ningún mensaje</h3>
+            </div>
+            <div class="p_munieco">
+                <p>Ingrese el texto que desees encriptar o desencriptar</p>
+            </div>
+
+            <div class="resultado">
+                <p class="mensaje"></p>
+            </div>
+            <div>
+                <input type="button" class="btn-copiar" value="Copiar">
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
