@@ -74,19 +74,19 @@ function desencriptar_texto(mensaje){
     for(var i=0; i< texto.length; i++){
         if (texto[i] == "a"){
             texto_final += "a"
-            i += 2
+            i += 1
         }
         else if (texto[i] == "e"){
             texto_final += "e"
-            i += 5;
+            i += 4;
         }
         else if (texto[i] == "i"){
             texto_final += "i"
-            i += 4
+            i += 3
         }
         else if (texto[i] == "o"){
             texto_final += "o"
-            i += 4
+            i += 3
         }
         else if (texto[i] == "u"){
             texto_final += "u"
