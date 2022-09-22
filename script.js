@@ -36,11 +36,12 @@ function Ocultar(){
 
 function encriptar_texto(mensaje){
     var texto = mensaje;
-    var texto_final = "";
+    var texto_final ="";
 
     for (var i=0; i < texto.length; i++){
+        
         if (texto[i] == "a"){
-            texto_final += "ai";
+            texto_final = texto_final + texto[i] + "i";
         }
 
         else if (texto[i] == "e"){
@@ -51,11 +52,11 @@ function encriptar_texto(mensaje){
             texto_final += "imes";
         }
 
-        if (texto[i] == "o"){
+        else if (texto[i] == "o"){
             texto_final += "ober";
         }
 
-        if (texto[i] == "u"){
+        else if (texto[i] == "u"){
             texto_final += "ufat";
         }
 
@@ -64,6 +65,7 @@ function encriptar_texto(mensaje){
         }
 
     }
+    
     return texto_final;
 }
 
