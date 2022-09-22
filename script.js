@@ -41,7 +41,7 @@ function encriptar_texto(mensaje){
     for (var i=0; i < texto.length; i++){
         
         if (texto[i] == "a"){
-            texto_final = texto_final + texto[i] + "i";
+            texto_final = texto_final + "ai";
         }
 
         else if (texto[i] == "e"){
